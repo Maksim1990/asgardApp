@@ -11,5 +11,11 @@
 |
 */
 Route::get('/', function () {
+    //Test
+    return view('welcome');
+});
+
+Route::get('/test2', function () {
+    //Test
     return view('welcome');
 });
